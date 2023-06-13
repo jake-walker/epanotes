@@ -1,0 +1,15 @@
+baseURL = "https://squirrel.quest/"
+languageCode = "en-gb"
+title = "EPA Notes"
+theme = "hugo-book"
+
+enableGitInfo = true
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  BookTheme = "auto"
+  BookComments = false
+
+[markup.goldmark.renderer]
+  unsafe = true
