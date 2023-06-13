@@ -10,6 +10,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
   BookTheme = "auto"
   BookComments = false
+  BookRepo = "https://github.com/jake-walker/epanotes"
+  BookCommitPath = "commit"
 
 [markup.goldmark.renderer]
   unsafe = true
